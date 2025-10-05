@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC:wght@700&display=swap');
+
+body {
+  font-family: 'Almendra SC', serif;
+  color: #f9f7e8;
+}
+
+h1 {
+  color: #ffd700;
+  text-shadow: 0 0 10px #ffd700;
+}
+
+button {
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.correct-answer {
+  color: #00ff00;
+}
+
+.incorrect-answer {
+  color: #ff0000;
+}
